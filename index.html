@@ -7,82 +7,126 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:600&amp;subset=cyrillic" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-           <div class="row align-items-center menu">
-                
-                <div class="col-md logo">
-                    <img src="" alt="Theater">
-                </div>
-                <div class="col-md-6 nav">
-                    <ul class="menu_list">
-                    <li id="button">Репертуар</li>
-                    <li id="button">О театре</li>
-                    <li id="button">Контакты</li>
-                    <li id="button">Отзывы</li>
-                </ul>
-            </div>
-                <div class="col-md contact">Call - us </div>   
-                <div class="col-md adress">Ul Soviet army</div>             
-                
-           </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md slider">Slider_1</div>            
-            </div>
-        </div>
+        <header class="header_block">
             <div class="container">
-            <div class="row justify-content-center">
-                    <div class="col-md-10"><h2>РЕПЕРТУАР</h2></div>            
+                <div class="row  menu">                
+                    <div class="col-auto logo">                        
+                            <img src="Content/logo_img.png"  height="80px" width="auto" alt="Theater">
+                    </div>
+                    <div class="col-auto naviganion">
+                            <ul class="menu_list">
+                                <li class="menu_item">
+                                    <a href="" class="menu_item_link">Репертуар</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu_item_link">О театре</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu_item_link">Контакты</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu_item_link">Отзывы</a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col-auto contact_info">
+                        <div class="phone_Ico_holder top_ico">
+                            <img src="Icons\Phone_ico.svg" alt="phone" width=40px height="auto">
+                        </div>
+                        <div class="phone_info">
+                            <span>+7 343 65 2 11 22 </span>
+                            <br/>
+                            <span>10:00 - 19:00</span>
+                        </div>                        
+                    </div>   
+                    <div class="col-3 contact_info">
+                            <div class="adres_Ico_holder top_ico">
+                                    <img src="Icons\Marker.svg" alt="phone" width=30px height="auto">
+                                </div>
+                                <div class="adres_info top_info">
+                                    <span>Советская 10 (АКИ) </span>
+                                    <br/>
+                                    <span>Советская 12 (вход со двора)</span>
+                                </div>   
+                    </div>                
                 </div>
-        <div class="row">
-                <div class="col-md"></div>
-                <div class="col-md-9 slider-mid">2423423</div>   
-                <div class="col-md"></div>        
-        </div>
-        <div class="row justify-content-center">
+            </div>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col slider">Slider_1</div>            
+                </div>
+            </div>
 
-            <div class="col-md-12 map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1086.288176694324!2d61.46366057082632!3d57.00743868373449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c0e1637ab78d09%3A0x105801aa21aa07e5!2z0KHQstC10YDQtNC70L7QstGB0LrQsNGPINCT0L7RgdGD0LTQsNGA0YHRgtCy0LXQvdC90LDRjyDQkNC60LDQtNC10LzQuNGH0LXRgdC60LDRjyDQpNC40LvQsNGA0LzQvtC90LjRjywg0KTQuNC70LjQsNC7INCSINCQ0YHQsdC10YHRgtC1!5e0!3m2!1sru!2sru!4v1542565337509" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>            
-        </div>
-        <div class="row justify-content-center footer">
-                <div class="col-md-1"></div>
-               <div class="col-md-10"><img src="" alt="logo"></div> 
-               <div class="col-md-1"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10"><h2>РЕПЕРТУАР</h2></div>            
+                </div>
+                <div class="row">                    
+                    <div class="col-12 slider-mid">2423423</div>                           
+                </div>
+            </div>
+            
+            <div class="contianer-fluid">   
+                <div class="row justify-content-center">
+                    <div class="col-12 map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1086.288176694324!2d61.46366057082632!3d57.00743868373449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c0e1637ab78d09%3A0x105801aa21aa07e5!2z0KHQstC10YDQtNC70L7QstGB0LrQsNGPINCT0L7RgdGD0LTQsNGA0YHRgtCy0LXQvdC90LDRjyDQkNC60LDQtNC10LzQuNGH0LXRgdC60LDRjyDQpNC40LvQsNGA0LzQvtC90LjRjywg0KTQuNC70LjQsNC7INCSINCQ0YHQsdC10YHRgtC1!5e0!3m2!1sru!2sru!4v1542565337509" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="info_module">
+                        <span class="info_m_data">Наши контакты</span>
+                        <div class="ico">
+                            <img src="" alt="Insta">
+                            <img src="" alt="VK.com">
+                            <img src="" alt="одноглазники">
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" disabled>
+                            Советская 10(АКИ;бывш. Муз. училище)
 
-               <div class="col-md-1"></div>
-               <div class="col-md-10"><h6>Асбестовский театр Лицей 2000-2018</h6></div>
-               <div class="col-md-1"></div>
+                            -Театральный класс
+                            -большой зал
 
-                <div class="col-md-1"></div>
-               <div class="col-md-12">
-                   
-                     <ul class="menu_list">
+                        </textarea>                                               
+                    </div>            
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center footer">
+                    <div class="col-1"></div>
+                    <div class="col--10"><img src="" alt="logo"></div> 
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-10"><h6>Асбестовский театр Лицей 2000-2018</h6></div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-12">                   
+                        <ul class="menu_list">
                             <li id="button">Репертуар</li>
                             <li id="button">О театре</li>
                             <li id="button">Контакты</li>
                             <li id="button">Отзывы</li>
-                    </ul>
-                </div>
-                <div class="col-md-1"></div>
-
-                <div class="col-md-3"></div>
-                <div class="col-md-6 social">
-                    <ul class="menu_list">
+                        </ul>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-3"></div>
+                    <div class="col-6 social">
+                        <ul class="menu_list">
                             <li id="button"><img src="" alt="Instagram"></li>
                             <li id="button"><img src="" alt="facebook"></li>
                             <li id="button"><img src="" alt="VK"></li>                           
-                    </ul>
-                </div>  
-                <div class="col-md-3"></div>                   
-        </div>
-        
-    </div>
-   
+                        </ul>
+                    </div>  
+                    <div class="col-3"></div>                   
+                </div>    
+            </div>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
